@@ -1,6 +1,9 @@
 # stocks
 Dummy project
 
+## Pré-reqs
+- metallb [https://metallb.io/]
+
 ## Setup
 
 ```
