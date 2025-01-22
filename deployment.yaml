@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stocks
+  namespace: homelab
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: stocks
+  template:
+    metadata:
+      labels:
+        app: stocks
+    spec:
+      containers:
+      - name: stocks
+        image: samuellisboa/stocks:latest
+        ports:
+        - containerPort: 5000
