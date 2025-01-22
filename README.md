@@ -2,7 +2,7 @@
 Dummy project
 
 ## Pré-reqs
-- metallb [https://metallb.io/]
+- Load Balancer configurado. Para onprmise use o metallb [https://metallb.io/]
 
 ## Setup
 
